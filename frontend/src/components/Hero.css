@@ -44,6 +44,7 @@
 .hero-content .brand-display {
   letter-spacing: 0.02em;
   word-spacing: 0.1em;
+  line-height: 1.1;
 }
 
 .hero-subtitle {
