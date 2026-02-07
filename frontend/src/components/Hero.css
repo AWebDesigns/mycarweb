@@ -41,6 +41,11 @@
   max-width: 50rem;
 }
 
+.hero-content .brand-display {
+  letter-spacing: 0.02em;
+  word-spacing: 0.1em;
+}
+
 .hero-subtitle {
   margin-top: 24px;
   margin-bottom: 40px;
