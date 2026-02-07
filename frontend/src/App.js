@@ -5,6 +5,7 @@ import About from './components/About';
 import Services from './components/Services';
 import BeforeAfter from './components/BeforeAfter';
 import Reviews from './components/Reviews';
+import BookingInfo from './components/BookingInfo';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
@@ -18,6 +19,7 @@ function App() {
       <Services />
       <BeforeAfter />
       <Reviews />
+      <BookingInfo />
       <Contact />
       <Footer />
     </div>
