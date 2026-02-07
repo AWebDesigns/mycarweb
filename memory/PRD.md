@@ -112,6 +112,12 @@ Modern, professional, and conversion-focused website for WA.Bilvård, a premium 
 - User can replace placeholder images with their own
 - Fixed hero title letter-spacing for better readability
 - Added "Före & Efter" link to navigation menu
+- Reduced hero title size for mobile responsiveness (now fits on all screens)
+- Added "Så Bokar Du" (How to Book) section explaining booking requirements:
+  * Car type (SUV, Cab, Minibus, etc.)
+  * Desired service (Interior, Exterior, Full service, etc.)
+  * Preferred date and time
+  * Clear call-to-action with 24-hour response promise
 
 ## Next Action Items
 - [ ] Replace placeholder images in Before/After section with actual photos
