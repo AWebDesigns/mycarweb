@@ -454,7 +454,7 @@ export default About;
 ### File: `/app/frontend/src/components/Services.jsx`
 ```jsx
 import React from 'react';
-import { Sparkles, Droplets, Shield, Brush } from 'lucide-react';
+import { Sparkles, Droplets, Shield, Brush, Wind, CircleDot, Package, Wrench } from 'lucide-react';
 import './Services.css';
 
 const servicesData = [
@@ -485,6 +485,34 @@ const servicesData = [
     description: 'Professionell lackkorrigering som tar bort repor, swirls och oxidation. Återställer lackens ursprungliga glans.',
     image: 'https://images.unsplash.com/photo-1656077885491-3922185f3932',
     icon: Brush
+  },
+  {
+    id: 5,
+    title: 'AC Service & Påfyllning',
+    description: 'Luftkonditioneringsservice och återfyllning av köldmedium. Vi säkerställer att din AC fungerar optimalt hela året.',
+    image: 'https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=600',
+    icon: Wind
+  },
+  {
+    id: 6,
+    title: 'Däckbyte',
+    description: 'Snabb och professionell däckbyte för alla fordonstyper. Vi hanterar både sommar- och vinterdäck med expertis.',
+    image: 'https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600',
+    icon: CircleDot
+  },
+  {
+    id: 7,
+    title: 'Däckförvaring',
+    description: 'Säker och torr förvaring av dina däck. Vi tar hand om dina säsongsdäck i vår klimatkontrollerade lokal.',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600',
+    icon: Package
+  },
+  {
+    id: 8,
+    title: 'Bilservice',
+    description: 'Komplett service och underhåll av ditt fordon. Oljebyte, filter, bromsar och allmän inspektion för optimal prestanda.',
+    image: 'https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=600',
+    icon: Wrench
   }
 ];
 
@@ -947,6 +975,10 @@ const Footer = () => {
                 <li><span className="footer-link">Exteriör Detaljering</span></li>
                 <li><span className="footer-link">Keramisk Coating</span></li>
                 <li><span className="footer-link">Lackpolering</span></li>
+                <li><span className="footer-link">AC Service & Påfyllning</span></li>
+                <li><span className="footer-link">Däckbyte</span></li>
+                <li><span className="footer-link">Däckförvaring</span></li>
+                <li><span className="footer-link">Bilservice</span></li>
               </ul>
             </div>
 
