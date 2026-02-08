@@ -39,6 +39,10 @@ const Footer = () => {
                 <li><span className="footer-link">Exteriör Detaljering</span></li>
                 <li><span className="footer-link">Keramisk Coating</span></li>
                 <li><span className="footer-link">Lackpolering</span></li>
+                <li><span className="footer-link">AC Service & Påfyllning</span></li>
+                <li><span className="footer-link">Däckbyte</span></li>
+                <li><span className="footer-link">Däckförvaring</span></li>
+                <li><span className="footer-link">Bilservice</span></li>
               </ul>
             </div>
 
