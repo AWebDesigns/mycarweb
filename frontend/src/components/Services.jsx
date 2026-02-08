@@ -21,14 +21,14 @@ const servicesData = [
     id: 3,
     title: 'Keramisk Coating',
     description: 'Långvarigt skydd med keramisk beläggning. Ger exceptionell glans och skyddar mot väder, smuts och repor.',
-    image: 'https://images.unsplash.com/photo-1656077884513-efd5e02193af',
+    image: 'https://customer-assets.emergentagent.com/job_detail-excellence-wa/artifacts/v4dogbyy_image.png',
     icon: Shield
   },
   {
     id: 4,
     title: 'Lackpolering',
     description: 'Professionell lackkorrigering som tar bort repor, swirls och oxidation. Återställer lackens ursprungliga glans.',
-    image: 'https://images.unsplash.com/photo-1656077885491-3922185f3932',
+    image: 'https://customer-assets.emergentagent.com/job_detail-excellence-wa/artifacts/kxp7yikb_image.png',
     icon: Brush
   },
   {
@@ -42,14 +42,14 @@ const servicesData = [
     id: 6,
     title: 'Däckbyte',
     description: 'Snabb och professionell däckbyte för alla fordonstyper. Vi hanterar både sommar- och vinterdäck med expertis.',
-    image: 'https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=600',
+    image: 'https://customer-assets.emergentagent.com/job_detail-excellence-wa/artifacts/rx6idg62_image.png',
     icon: CircleDot
   },
   {
     id: 7,
     title: 'Däckförvaring',
     description: 'Säker och torr förvaring av dina däck. Vi tar hand om dina säsongsdäck i vår klimatkontrollerade lokal.',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600',
+    image: 'https://customer-assets.emergentagent.com/job_detail-excellence-wa/artifacts/kzlmizhy_image.png',
     icon: Package
   },
   {

@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
-import BeforeAfter from './components/BeforeAfter';
+import FAQ from './components/FAQ';
 import Reviews from './components/Reviews';
 import BookingInfo from './components/BookingInfo';
 import Contact from './components/Contact';
@@ -17,7 +17,7 @@ function App() {
       <Hero />
       <About />
       <Services />
-      <BeforeAfter />
+      <FAQ />
       <Reviews />
       <BookingInfo />
       <Contact />
