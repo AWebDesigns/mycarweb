@@ -6,20 +6,11 @@ const Hero = () => {
   return (
     <section id="home" className="hero-section">
       <div className="hero-background">
-        <div className="hero-image-left">
-          <img 
-            src="https://customer-assets.emergentagent.com/job_detail-excellence-wa/artifacts/l3v1h5t8_image.png"
-            alt="Car service"
-            className="hero-image"
-          />
-        </div>
-        <div className="hero-image-right">
-          <img 
-            src="https://customer-assets.emergentagent.com/job_detail-excellence-wa/artifacts/mijk1wi2_image.png"
-            alt="Car washing"
-            className="hero-image"
-          />
-        </div>
+        <img 
+          src="https://images.pexels.com/photos/20051462/pexels-photo-20051462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          alt="Premium car detailing"
+          className="hero-image"
+        />
         <div className="hero-overlay"></div>
       </div>
       
