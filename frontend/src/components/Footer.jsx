@@ -69,10 +69,10 @@ const Footer = () => {
         <div className="footer-bottom">
           <p className="caption">© {currentYear} WA.Bilvård. Alla rättigheter förbehållna.</p>
           <div className="footer-social">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Facebook">
+            <a href="https://www.facebook.com/share/1AL5beRmaq/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Facebook">
               <Facebook size={20} />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Instagram">
+            <a href="https://www.instagram.com/wa.bilrekond?igsh=MTh3YjU2aHFnaHF5ZA==" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Instagram">
               <Instagram size={20} />
             </a>
           </div>
