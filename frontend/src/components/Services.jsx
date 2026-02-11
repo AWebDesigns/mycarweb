@@ -62,6 +62,23 @@ const servicesData = [
 ];
 
 const Services = () => {
+  const handleServiceClick = (serviceId) => {
+    // Services 1-4 go to pricing, services 5-8 go to booking
+    if (serviceId <= 4) {
+      // Navigate to pricing section
+      const pricingSection = document.getElementById('pricing');
+      if (pricingSection) {
+        pricingSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      // Navigate to booking info section
+      const bookingSection = document.querySelector('.booking-info-section');
+      if (bookingSection) {
+        bookingSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  };
+
   return (
     <section id="services" className="services-section">
       <div className="container">
@@ -76,7 +93,18 @@ const Services = () => {
           {servicesData.map((service) => {
             const IconComponent = service.icon;
             return (
-              <div key={service.id} className="service-card">
+              <div 
+                key={service.id} 
+                className="service-card service-card-clickable"
+                onClick={() => handleServiceClick(service.id)}
+                role="button"
+                tabIndex={0}
+                onKeyPress={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    handleServiceClick(service.id);
+                  }
+                }}
+              >
                 <div className="service-image-wrapper">
                   <img 
                     src={service.image} 

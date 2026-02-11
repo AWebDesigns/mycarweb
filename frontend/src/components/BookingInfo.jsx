@@ -16,7 +16,7 @@ const BookingInfo = () => {
       icon: Wrench,
       title: 'Önskad Tjänst',
       description: 'Berätta vad du vill ha gjort',
-      examples: 'Interiör, Exteriör, Fullservice, Keramisk coating'
+      examples: 'Interiör, Exteriör, Fullservice, Keramisk coating, AC service, Däckbyte, Däckförvaring, Bilservice'
     },
     {
       id: 3,

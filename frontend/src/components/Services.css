@@ -28,10 +28,18 @@
   transition: all 0.3s ease;
 }
 
-.service-card:hover {
-  transform: translateY(-8px);
+.service-card-clickable {
+  cursor: pointer;
+}
+
+.service-card-clickable:hover {
+  transform: translateY(-8px) scale(1.02);
   border-color: var(--brand-primary);
-  box-shadow: 0 12px 24px rgba(217, 251, 6, 0.1);
+  box-shadow: 0 12px 24px rgba(217, 251, 6, 0.15);
+}
+
+.service-card-clickable:active {
+  transform: translateY(-6px) scale(1.01);
 }
 
 .service-image-wrapper {
