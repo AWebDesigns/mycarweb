@@ -1,16 +1,42 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Phone, Mail, MessageSquare } from 'lucide-react';
 import './Hero.css';
 
 const Hero = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+  
+  const slides = [
+    'https://customer-assets.emergentagent.com/job_detail-excellence-wa/artifacts/9r4nwazs_img_5206.webp',
+    'https://customer-assets.emergentagent.com/job_detail-excellence-wa/artifacts/z0b2xvrq_AdobeStock_367018612-1024x683.jpg',
+    'https://customer-assets.emergentagent.com/job_detail-excellence-wa/artifacts/gb4ziv76_image.png',
+    'https://customer-assets.emergentagent.com/job_detail-excellence-wa/artifacts/fkoe9u5p_image.png'
+  ];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % slides.length);
+    }, 5000); // Change image every 5 seconds
+
+    return () => clearInterval(interval);
+  }, [slides.length]);
+
   return (
     <section id="home" className="hero-section">
       <div className="hero-background">
-        <img 
-          src="https://images.pexels.com/photos/20051462/pexels-photo-20051462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-          alt="Premium car detailing"
-          className="hero-image"
-        />
+        <div className="hero-slideshow">
+          {slides.map((slide, index) => (
+            <div
+              key={index}
+              className={`hero-slide ${index === currentSlide ? 'hero-slide-active' : ''}`}
+            >
+              <img 
+                src={slide}
+                alt={`Car service ${index + 1}`}
+                className="hero-image"
+              />
+            </div>
+          ))}
+        </div>
         <div className="hero-overlay"></div>
       </div>
       
