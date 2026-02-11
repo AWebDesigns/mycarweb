@@ -39,8 +39,8 @@ const Header = () => {
             <button onClick={() => scrollToSection('services')} className="nav-link">
               Tjänster
             </button>
-            <button onClick={() => scrollToSection('faq')} className="nav-link">
-              FAQ
+            <button onClick={() => scrollToSection('pricing')} className="nav-link">
+              Priser
             </button>
             <button onClick={() => scrollToSection('reviews')} className="nav-link">
               Omdömen

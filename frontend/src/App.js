@@ -4,8 +4,9 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
 import FAQ from './components/FAQ';
-import Reviews from './components/Reviews';
+import Pricing from './components/Pricing';
 import BookingInfo from './components/BookingInfo';
+import Reviews from './components/Reviews';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
@@ -18,8 +19,9 @@ function App() {
       <About />
       <Services />
       <FAQ />
-      <Reviews />
+      <Pricing />
       <BookingInfo />
+      <Reviews />
       <Contact />
       <Footer />
     </div>
