@@ -49,7 +49,7 @@ const servicesData = [
     id: 7,
     title: 'Hjulinställning',
     description: 'Professionell hjulinställning för optimal körupplevelse och jämnt däckslitage. Boka för att säkerställa korrekt vinkel och spårning.',
-    image: 'https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=600',
+    image: 'https://customer-assets.emergentagent.com/job_19fe895e-25b8-433b-a4db-8643c865fa21/artifacts/xdpu22pz_image.png',
     icon: Focus
   },
   {
