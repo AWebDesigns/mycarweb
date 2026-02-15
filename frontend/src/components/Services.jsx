@@ -41,7 +41,7 @@ const servicesData = [
   {
     id: 6,
     title: 'Däckbyte',
-    description: 'Snabb och professionell däckbyte för alla fordonstyper. Vi hanterar både sommar- och vinterdäck med expertis.',
+    description: 'Snabb och professionell däckbyte för alla fordonstyper. Vi hanterar både sommar- och vinterdäck med expertis. Hjulinställning ingår.',
     image: 'https://customer-assets.emergentagent.com/job_detail-excellence-wa/artifacts/rx6idg62_image.png',
     icon: CircleDot
   },
@@ -122,6 +122,14 @@ const Services = () => {
               </div>
             );
           })}
+        </div>
+
+        <div className="services-info-note">
+          <p className="body-small">
+            <strong>Obs!</strong> Reparationer av djupa repor görs av professionell lackerare. 
+            För detta behöver du <a href="tel:0760377772" className="inline-link">ringa</a> eller 
+            <a href="sms:0760377772" className="inline-link"> skicka SMS</a> för offert och bokning.
+          </p>
         </div>
 
         <div className="services-cta">
