@@ -110,8 +110,9 @@ Modern, professional, and conversion-focused website for WA.Bilvård, a premium 
 ✅ Multiple booking CTAs implemented
 ✅ Professional images integrated
 ✅ All sections working correctly
-✅ Before/After gallery section added with placeholder images (February 7, 2026)
-✅ Hero text spacing improved for better readability
+✅ 9 services with clickable cards (February 15, 2026)
+✅ Hjulinställning as separate service (February 15, 2026)
+✅ Deep scratch repairs note added (February 15, 2026)
 
 ## Recent Updates (February 15, 2026)
 - Added "Hjulinställning" (wheel alignment) as separate service (not part of Däckbyte)
