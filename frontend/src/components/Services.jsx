@@ -41,19 +41,26 @@ const servicesData = [
   {
     id: 6,
     title: 'Däckbyte',
-    description: 'Snabb och professionell däckbyte för alla fordonstyper. Vi hanterar både sommar- och vinterdäck med expertis. Hjulinställning ingår.',
+    description: 'Snabb och professionell däckbyte för alla fordonstyper. Vi hanterar både sommar- och vinterdäck med expertis.',
     image: 'https://customer-assets.emergentagent.com/job_detail-excellence-wa/artifacts/rx6idg62_image.png',
     icon: CircleDot
   },
   {
     id: 7,
+    title: 'Hjulinställning',
+    description: 'Professionell hjulinställning för optimal körupplevelse och jämnt däckslitage. Boka för att säkerställa korrekt vinkel och spårning.',
+    image: 'https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=600',
+    icon: Focus
+  },
+  {
+    id: 8,
     title: 'Däckförvaring',
     description: 'Säker och torr förvaring av dina däck. Vi tar hand om dina säsongsdäck i vår klimatkontrollerade lokal.',
     image: 'https://customer-assets.emergentagent.com/job_detail-excellence-wa/artifacts/kzlmizhy_image.png',
     icon: Package
   },
   {
-    id: 8,
+    id: 9,
     title: 'Bilservice',
     description: 'Komplett service och underhåll av ditt fordon. Oljebyte, filter, bromsar och allmän inspektion för optimal prestanda.',
     image: 'https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=600',
