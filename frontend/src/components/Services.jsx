@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, Droplets, Shield, Brush, Wind, CircleDot, Package, Wrench } from 'lucide-react';
+import { Sparkles, Droplets, Shield, Brush, Wind, CircleDot, Package, Wrench, Focus } from 'lucide-react';
 import './Services.css';
 
 const servicesData = [
