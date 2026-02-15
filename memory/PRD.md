@@ -48,11 +48,18 @@ Modern, professional, and conversion-focused website for WA.Bilvård, a premium 
    - Customer-first messaging
 
 4. **Services Section**
-   - Four main services with images:
+   - Nine services with images and icons:
      * Interiör Detaljering
      * Exteriör Detaljering
      * Keramisk Coating
      * Lackpolering
+     * AC Service & Påfyllning
+     * Däckbyte
+     * Hjulinställning (separate service)
+     * Däckförvaring
+     * Bilservice
+   - Clickable cards (services 1-4 scroll to Pricing, 5-9 scroll to Booking Info)
+   - Important note about deep scratch repairs (requires call/SMS to professional painter)
    - Hover animations
    - Service descriptions
    - Contact CTA
