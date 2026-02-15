@@ -113,7 +113,12 @@ Modern, professional, and conversion-focused website for WA.Bilvård, a premium 
 ✅ Before/After gallery section added with placeholder images (February 7, 2026)
 ✅ Hero text spacing improved for better readability
 
-## Recent Updates (February 7, 2026)
+## Recent Updates (February 15, 2026)
+- Added "Hjulinställning" (wheel alignment) as separate service (not part of Däckbyte)
+- Added note about deep scratch repairs done by professional painter (requires call/SMS)
+- Total 9 services now displayed in grid layout
+
+## Updates (February 7, 2026)
 - Added "Före & Efter" (Before & After) section between Services and Reviews
 - 4 placeholder cards with before/after image pairs
 - User can replace placeholder images with their own
