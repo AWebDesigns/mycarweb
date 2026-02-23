@@ -94,6 +94,37 @@
   border: 1px solid var(--border-medium);
 }
 
+.services-info-note {
+  text-align: center;
+  padding: 32px 40px;
+  background: var(--bg-page);
+  border-radius: 8px;
+  border: 1px solid var(--border-medium);
+  margin-bottom: 32px;
+}
+
+.services-info-note p {
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.services-info-note strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.inline-link {
+  color: var(--brand-primary);
+  text-decoration: none;
+  font-weight: 600;
+  transition: opacity 0.3s ease;
+}
+
+.inline-link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
 .services-cta p {
   margin-bottom: 24px;
   color: var(--text-primary);
