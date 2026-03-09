@@ -54,7 +54,7 @@ const Hero = () => {
               <Phone size={20} />
               Ring Nu
             </a>
-            <a href="mailto:kontakt@wabilvard.se" className="btn-secondary">
+            <a href="mailto:wa-bilrekond@hotmail.com" className="btn-secondary">
               <Mail size={20} />
               Mejla Oss
             </a>

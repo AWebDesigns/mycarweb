@@ -36,7 +36,7 @@ const faqData = [
   {
     id: 7,
     question: 'Vad kostar AC service och hur ofta behövs det?',
-    answer: 'AC service kostar från 800-1500 kr beroende på bil och behov. Vi rekommenderar service vart 2:a år för att säkerställa optimal funktion. Service inkluderar kontroll av köldmedium, tryck, läckage och rengöring av systemet.'
+    answer: 'AC service kostar från 800kr-3500kr beroende på bil och behov. Vi rekommenderar service vart 2:a år för att säkerställa optimal funktion. Service inkluderar kontroll av köldmedium, tryck, läckage och rengöring av systemet.'
   },
   {
     id: 8,
@@ -101,7 +101,7 @@ const FAQ = () => {
           <p className="body-medium">Har du fler frågor?</p>
           <div className="faq-cta-buttons">
             <a href="tel:0760377772" className="btn-primary">Ring Oss</a>
-            <a href="mailto:kontakt@wabilvard.se" className="btn-secondary">Mejla Oss</a>
+            <a href="mailto:wa-bilrekond@hotmail.com" className="btn-secondary">Mejla Oss</a>
           </div>
         </div>
       </div>

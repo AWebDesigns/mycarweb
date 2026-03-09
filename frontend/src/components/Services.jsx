@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, Droplets, Shield, Brush, Wind, CircleDot, Package, Wrench } from 'lucide-react';
+import { Sparkles, Droplets, Shield, Brush, Wind, CircleDot, Package, Wrench, Focus } from 'lucide-react';
 import './Services.css';
 
 const servicesData = [
@@ -47,13 +47,20 @@ const servicesData = [
   },
   {
     id: 7,
+    title: 'Hjulinställning',
+    description: 'Professionell hjulinställning för optimal körupplevelse och jämnt däckslitage. Boka för att säkerställa korrekt vinkel och spårning.',
+    image: 'https://customer-assets.emergentagent.com/job_19fe895e-25b8-433b-a4db-8643c865fa21/artifacts/xdpu22pz_image.png',
+    icon: Focus
+  },
+  {
+    id: 8,
     title: 'Däckförvaring',
     description: 'Säker och torr förvaring av dina däck. Vi tar hand om dina säsongsdäck i vår klimatkontrollerade lokal.',
     image: 'https://customer-assets.emergentagent.com/job_detail-excellence-wa/artifacts/kzlmizhy_image.png',
     icon: Package
   },
   {
-    id: 8,
+    id: 9,
     title: 'Bilservice',
     description: 'Komplett service och underhåll av ditt fordon. Oljebyte, filter, bromsar och allmän inspektion för optimal prestanda.',
     image: 'https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=600',
@@ -122,6 +129,14 @@ const Services = () => {
               </div>
             );
           })}
+        </div>
+
+        <div className="services-info-note">
+          <p className="body-small">
+            <strong>Obs!</strong> Reparationer av djupa repor görs av professionell lackerare. 
+            För detta behöver du <a href="tel:0760377772" className="inline-link">ringa</a> eller 
+            <a href="sms:0760377772" className="inline-link"> skicka SMS</a> för offert och bokning.
+          </p>
         </div>
 
         <div className="services-cta">
