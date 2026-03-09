@@ -35,14 +35,15 @@ const Footer = () => {
             <div className="footer-column">
               <h4 className="footer-heading">Tjänster</h4>
               <ul className="footer-list">
-                <li><span className="footer-link">Interiör Detaljering</span></li>
-                <li><span className="footer-link">Exteriör Detaljering</span></li>
-                <li><span className="footer-link">Keramisk Coating</span></li>
-                <li><span className="footer-link">Lackpolering</span></li>
-                <li><span className="footer-link">AC Service & Påfyllning</span></li>
-                <li><span className="footer-link">Däckbyte</span></li>
-                <li><span className="footer-link">Däckförvaring</span></li>
-                <li><span className="footer-link">Bilservice</span></li>
+                <li><a href="#services" className="footer-link" onClick={(e) => { e.preventDefault(); document.getElementById('services').scrollIntoView({ behavior: 'smooth' }); }}>Interiör Detaljering</a></li>
+                <li><a href="#services" className="footer-link" onClick={(e) => { e.preventDefault(); document.getElementById('services').scrollIntoView({ behavior: 'smooth' }); }}>Exteriör Detaljering</a></li>
+                <li><a href="#services" className="footer-link" onClick={(e) => { e.preventDefault(); document.getElementById('services').scrollIntoView({ behavior: 'smooth' }); }}>Keramisk Coating</a></li>
+                <li><a href="#services" className="footer-link" onClick={(e) => { e.preventDefault(); document.getElementById('services').scrollIntoView({ behavior: 'smooth' }); }}>Lackpolering</a></li>
+                <li><a href="#services" className="footer-link" onClick={(e) => { e.preventDefault(); document.getElementById('services').scrollIntoView({ behavior: 'smooth' }); }}>AC Service & Påfyllning</a></li>
+                <li><a href="#services" className="footer-link" onClick={(e) => { e.preventDefault(); document.getElementById('services').scrollIntoView({ behavior: 'smooth' }); }}>Däckbyte</a></li>
+                <li><a href="#services" className="footer-link" onClick={(e) => { e.preventDefault(); document.getElementById('services').scrollIntoView({ behavior: 'smooth' }); }}>Hjulinställning</a></li>
+                <li><a href="#services" className="footer-link" onClick={(e) => { e.preventDefault(); document.getElementById('services').scrollIntoView({ behavior: 'smooth' }); }}>Däckförvaring</a></li>
+                <li><a href="#services" className="footer-link" onClick={(e) => { e.preventDefault(); document.getElementById('services').scrollIntoView({ behavior: 'smooth' }); }}>Bilservice</a></li>
               </ul>
             </div>
 
@@ -59,7 +60,7 @@ const Footer = () => {
                 </li>
                 <li className="footer-contact-item">
                   <Mail size={16} />
-                  <a href="mailto:kontakt@wabilvard.se" className="footer-link">kontakt@wabilvard.se</a>
+                  <a href="mailto:wa-bilrekond@hotmail.com" className="footer-link">wa-bilrekond@hotmail.com</a>
                 </li>
               </ul>
             </div>

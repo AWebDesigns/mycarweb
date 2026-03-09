@@ -43,8 +43,8 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="heading-4">E-post</h3>
-                <a href="mailto:kontakt@wabilvard.se" className="body-small contact-link">
-                  kontakt@wabilvard.se
+                <a href="mailto:wa-bilrekond@hotmail.com" className="body-small contact-link">
+                  wa-bilrekond@hotmail.com
                 </a>
               </div>
             </div>
@@ -86,7 +86,7 @@ const Contact = () => {
               <Phone size={20} />
               Ring Nu
             </a>
-            <a href="mailto:kontakt@wabilvard.se" className="btn-secondary">
+            <a href="mailto:wa-bilrekond@hotmail.com" className="btn-secondary">
               <Mail size={20} />
               Skicka Mejl
             </a>
