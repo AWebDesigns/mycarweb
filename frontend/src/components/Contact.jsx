@@ -58,7 +58,6 @@ const Contact = () => {
                 <p className="body-small">
                   Måndag - Fredag: 09:00 - 18:00<br />
                   Lördag: 10:00 - 15:00<br />
-                  Lördag: 10:00 - 15:00<br />
                   Söndag: Stängt
                 </p>
               </div>
