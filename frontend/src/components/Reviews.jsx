@@ -5,31 +5,38 @@ import './Reviews.css';
 const reviewsData = [
   {
     id: 1,
-    name: 'Erik Andersson',
+    name: 'Nikita Lark',
     rating: 5,
-    text: 'Mycket kundorienterad service! WA.Bilvård tar sig verkligen tid att förstå vad jag behöver och levererar alltid över mina förväntningar. Rekommenderar starkt!',
-    date: '2 veckor sedan'
+    text: 'Very customer oriented service. The car got handled very well!',
+    date: '8 månader sedan'
   },
   {
     id: 2,
-    name: 'Maria Lindström',
+    name: 'Ludwig Kumlin Larsson',
     rating: 5,
-    text: 'Kunnig, noggrann och snabb! Min bil var i toppskick efter besöket. De är riktiga proffs som bryr sig om kvalitet.',
-    date: '1 månad sedan'
+    text: 'Hade en liten punktering på ett av däcken. Ringde WA 10 minuter innan de skulle stänga för dagen och fick svaret: Jag stannar kvar lite extra, kom hit! Fantastisk service!',
+    date: '1 vecka sedan'
   },
   {
     id: 3,
-    name: 'Johan Svensson',
+    name: 'Love Söderlund',
     rating: 5,
-    text: 'Fantastiska resultat även på väldigt smutsig bil! Jag är imponerad av deras expertis och uppmärksamhet på detaljer. Tack för ett fantastiskt jobb!',
-    date: '3 veckor sedan'
+    text: 'Körde en fullständig behandling på en väldigt smutsig bil, resultatet blev mycket bra! Väldigt trevligt bemötande från ägaren som också var serviceinriktad. Rekommenderas!',
+    date: '1 år sedan'
   },
   {
     id: 4,
-    name: 'Sofia Karlsson',
+    name: 'Björn Hjorth',
     rating: 5,
-    text: 'Professionell och vänlig personal. Min bil har aldrig sett bättre ut! Kommer definitivt tillbaka.',
-    date: '2 månader sedan'
+    text: 'Snabbt och trevligt, men framför allt kunnigt och noggrant.',
+    date: '6 månader sedan'
+  },
+  {
+    id: 5,
+    name: 'Johan Gunnarsson',
+    rating: 5,
+    text: 'Bilen är som ny igen! Fick hjälp med interiör, exteriör och med suffletten på Minin. Kunnig och prisvärd, stark rekommendation 👌',
+    date: '10 månader sedan'
   }
 ];
 
