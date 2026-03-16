@@ -5,34 +5,27 @@ import './Reviews.css';
 const reviewsData = [
   {
     id: 1,
-    name: 'Nikita Lark',
-    rating: 5,
-    text: 'Very customer oriented service. The car got handled very well!',
-    date: '8 månader sedan'
-  },
-  {
-    id: 2,
     name: 'Ludwig Kumlin Larsson',
     rating: 5,
     text: 'Hade en liten punktering på ett av däcken. Ringde WA 10 minuter innan de skulle stänga för dagen och fick svaret: Jag stannar kvar lite extra, kom hit! Fantastisk service!',
     date: '1 vecka sedan'
   },
   {
-    id: 3,
+    id: 2,
     name: 'Love Söderlund',
     rating: 5,
     text: 'Körde en fullständig behandling på en väldigt smutsig bil, resultatet blev mycket bra! Väldigt trevligt bemötande från ägaren som också var serviceinriktad. Rekommenderas!',
     date: '1 år sedan'
   },
   {
-    id: 4,
+    id: 3,
     name: 'Björn Hjorth',
     rating: 5,
     text: 'Snabbt och trevligt, men framför allt kunnigt och noggrant.',
     date: '6 månader sedan'
   },
   {
-    id: 5,
+    id: 4,
     name: 'Johan Gunnarsson',
     rating: 5,
     text: 'Bilen är som ny igen! Fick hjälp med interiör, exteriör och med suffletten på Minin. Kunnig och prisvärd, stark rekommendation 👌',
