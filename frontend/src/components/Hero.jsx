@@ -54,7 +54,7 @@ const Hero = () => {
               <Phone size={20} />
               Ring Nu
             </a>
-            <a href="mailto:kontakt@wabilvard.se" className="btn-secondary">
+            <a href="mailto:wa-bilrekond@hotmail.com" className="btn-secondary">
               <Mail size={20} />
               Mejla Oss
             </a>
@@ -71,7 +71,7 @@ const Hero = () => {
             </div>
             <div className="hero-info-item">
               <span className="caption">Öppettider</span>
-              <p className="body-small">Mån-Fre: 09:00 - 18:00</p>
+              <p className="body-small">Mån-Fre: 09:00 - 18:00 | Lör: 10:00 - 15:00</p>
             </div>
           </div>
         </div>
